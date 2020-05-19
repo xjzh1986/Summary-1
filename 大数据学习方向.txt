@@ -1,0 +1,8 @@
+数据存储:hdfs
+分布式协调 yarn
+数据仓库 hive
+统计计算 spark
+Es
+Kylin  hbase
+Clickhouse
+zookeeper kafka  flume  sqoop

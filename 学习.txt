@@ -1,0 +1,65 @@
+学习计划
+durid apollo 定时任务（xxl-job，elastic-job） mangoDB
+
+Gogs git 安装
+
+
+docker mysql 安装
+https://www.cnblogs.com/116970u/p/10869430.html
+
+Docker安装Mycat并实现mysql读写分离,分库分表
+https://blog.csdn.net/Amor_Leo/article/details/85218405
+ 
+
+PMP 考试
+https://www.educity.cn/shipin/v4116.html
+redis docker
+https://www.jianshu.com/p/ce1d78cd368a
+ES 集群配置
+https://blog.csdn.net/belonghuang157405/article/details/83301937
+android 学习
+https://www.runoob.com/w3cnote/android-tutorial-android-studio.html
+SpringBoot集成ElasticSearch
+https://www.jianshu.com/p/6887faf6b479
+es
+https://blog.csdn.net/zxc123e/article/details/79498113
+es api
+https://www.elastic.co/guide/en/elasticsearch/client/java-api/current/index.html
+网站素材
+https://www.17sucai.com/
+docker 加速器
+docker daocloud
+
+
+security
+https://blog.csdn.net/u010562966/article/details/88995076
+https://blog.csdn.net/zhaoxichen_10/article/details/88713799
+
+朝雨忆轻尘（Louis）/spring-boot-demo
+https://gitee.com/liuge1988/spring-boot-demo
+
+
+Spring Boot：整合Spring Security
+https://www.cnblogs.com/xifengxiaoma/p/11106220.html
+
+https://github.com/gf-huanchupk/SpringBootLearning
+
+https://blog.csdn.net/ech13an/article/details/80779973
+
+执行 git 命令
+git config --global http.sslVerify false
+
+linux 安装
+https://www.cnblogs.com/h-zhang/p/10884715.html
+
+安装
+linux使用docker
+https://www.cnblogs.com/liulihaha/p/10637479.html
+
+docker添加http代理
+https://www.jianshu.com/p/b26fad1534d9
+
+Hadoop 安装
+https://blog.csdn.net/lu1171901273/article/details/86518494
+
+Spring Boot 2.X 、Spring Security、Oauth2、Mybatis Plus前后端分离开源项目：https://gitee.com/entfrm/entfrm-boot，求关注，求star

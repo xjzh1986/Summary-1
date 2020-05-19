@@ -1,0 +1,44 @@
+查看剩余空间
+
+[root@localhost /]# df -h | grep ^/dev
+/dev/mapper/centos-root   17G  8.0G  9.1G  47% /
+/dev/sda1               1014M  1500706M  879M  14% /boot
+
+netstat -ntlp   //查看当前所有tcp端口
+
+linux后台运行jar包命令
+https://blog.csdn.net/daqiang012/article/details/82561373
+
+
+添加80端口为允许：
+
+firewall-cmd --zone=public --add-port=80/tcp --permanent （--permanent  没有此参数重启后失效）
+
+添加范围例外端口 如 5000-10000：
+
+firewall-cmd --zone=public --add-port=5000-10000/tcp --permanent 
+
+添加完成后立刻生效：
+
+重新载入
+firewall-cmd --reload
+查看
+firewall-cmd --zone=public --query-port=80/tcp
+删除
+firewall-cmd --zone=public --remove-port=80/tcp --permanent
+
+
+firewall-cmd --zone=public --add-port=50070/tcp --permanent
+
+/sbin/iptables -I INPUT -p tcp --dport 50070 -j ACCEPT
+
+sudo firewall-cmd --permanent --add-port=50070/tcp
+
+关闭防火墙
+systemctl stop firewalld.service
+
+查看防火墙状态
+systemctl status firewalld.service
+
+开机停止防火墙启动
+systemctl disable firewalld.service

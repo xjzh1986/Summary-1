@@ -1,0 +1,106 @@
+ linux 安装
+ cd /etc/sysconfig/network-scripts
+vi ifcfg-ens33
+
+TYPE=Ethernet
+PROXY_METHOD=none
+BROWSER_ONLY=no
+BOOTPROTO=static
+DEFROUTE=yes
+IPV4_FAILURE_FATAL=no
+IPV6INIT=yes
+IPV6_AUTOCONF=yes
+IPV6_DEFROUTE=yes
+IPV6_FAILURE_FATAL=no
+IPV6_ADDR_GEN_MODE=stable-privacy
+NAME=ens33
+UUID=ce9d8900-0cbd-4e79-b09a-724c74665926
+DEVICE=ens33
+ONBOOT=yes
+IPADDR=192.168.44.100
+NETMASK=255.255.255.0
+GATEWAY=192.168.44.2
+DNS1=10.170.133.11
+DNS2=10.170.133.12
+
+centos 8
+nmcli c reload
+
+配置代理
+https://blog.csdn.net/Phantom05/article/details/104923779
+
+vi /etc/dnf/dnf.conf
+
+proxy=http://proxy.neusoft.com:8080
+proxy_username=xiejzh
+proxy_password=N@601912261500：
+
+vi /etc/rhsm/rhsm.conf
+
+proxy_hostname = proxy.neusoft.com
+proxy_port = 8080
+proxy_user = xiejzh
+proxy_password = N@601912261500
+
+centos8 安装 docker
+https://blog.csdn.net/shana_8/article/details/105190368
+
+(主要)
+https://blog.csdn.net/yucaifu1989/article/details/103111317
+
+docker 创建代理
+
+mkdir -p /etc/systemd/system/docker.service.d
+cd /etc/systemd/system/docker.service.d
+touch http-proxy.conf
+vi http-proxy.conf
+
+ [Service]
+Environment="HTTP_PROXY=http://xiejzh:N@601912261500@proxy.neusoft.com:8080/"
+
+systemctl daemon-reload
+systemctl restart docker
+
+docker 加速器
+vi /etc/docker/daemon.json
+https://registry.docker-cn.com
+
+daocloud 加速器
+"registry-mirrors": ["http://f1361db2.m.daocloud.io"]
+阿里云加速器
+
+{
+	"registry-mirrors": ["https://eqcxmbvw.mirror.aliyuncs.com"]
+}
+
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+
+tar -zxvf 
+jdk 安装
+vi /etc/profile
+
+
+export JAVA_HOME=/usr/local/jdk1.8.0_231
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+export PATH=$PATH:$JAVA_HOME/bin
+
+
+
+export JAVA_HOME=/usr/local/jdk1.8.0_231
+export JRE_HOME=$JAVA_HOME/jre
+export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
+
+source /etc/profile
+
+
+export JAVA_HOME=/usr/local/jdk1.8.0_211
+export JAVA_BIN=$JAVA_HOME/bin
+export JAVA_LIB=$JAVA_HOME/lib
+export CLASSPATH=.:$JAVA_LIB/tools.jar:$JAVA_LIB/dt.jar
+ 
+export HADOOP_HOME=/usr/local/hadoop-3.2.1
+ 
+PATH=$PATH:$HOME/.local/bin:$HOME/bin:$JAVA_BIN:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
+export PATH

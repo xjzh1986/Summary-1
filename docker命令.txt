@@ -1,0 +1,28 @@
+docker 启动
+sudo service docker restart
+
+重启
+systemctl daemon-reload
+systemctl restart docker
+
+查看日志
+docker logs redis-6379|less
+
+授权报错
+--privileged=true
+
+docker 重起 容器跟这启动
+--restart=always
+
+--privileged=true --restart=always
+
+vi /etc/docker/daemon.json
+https://registry.docker-cn.com
+
+daocloud 加速器
+"registry-mirrors": ["http://f1361db2.m.daocloud.io"]
+阿里云加速器
+"registry-mirrors": ["https://eqcxmbvw.mirror.aliyuncs.com"]
+
+sudo systemctl daemon-reload
+sudo systemctl restart docker
