@@ -46,13 +46,12 @@ https://www.jianshu.com/p/b26fad1534d9
 Hadoop 安装
 https://blog.csdn.net/lu1171901273/article/details/86518494
 
-docker 部署nginx 使用keepalived 部署高可用
+
+
+docker 部署nginx 使用keepalived 部署高可用(参照自动启动脚本)
 https://www.cnblogs.com/caozengling/p/10136232.html
-https://blog.csdn.net/bbwangj/article/details/80346428  (keepalived)
-https://www.cnblogs.com/jianwei-dai/p/12157377.html
-
-Haproxy+keepalived高可用集群实战
-https://www.cnblogs.com/zhangan/p/10930570.html
-
-Docker nginx安装与配置挂载
+Docker nginx安装与配置挂载(docker nignx 搭建)
 https://blog.csdn.net/qq_26641781/article/details/80883192
+
+Nginx+Keepalived搭建高可用Web服务器详细教程，基于最新版Keepalived2.0.20实现的安装与配置（keepalived 搭建）
+https://blog.csdn.net/Hello_World_QWP/article/details/104447076
