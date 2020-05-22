@@ -45,3 +45,14 @@ https://www.jianshu.com/p/b26fad1534d9
 
 Hadoop 安装
 https://blog.csdn.net/lu1171901273/article/details/86518494
+
+docker 部署nginx 使用keepalived 部署高可用
+https://www.cnblogs.com/caozengling/p/10136232.html
+https://blog.csdn.net/bbwangj/article/details/80346428  (keepalived)
+https://www.cnblogs.com/jianwei-dai/p/12157377.html
+
+Haproxy+keepalived高可用集群实战
+https://www.cnblogs.com/zhangan/p/10930570.html
+
+Docker nginx安装与配置挂载
+https://blog.csdn.net/qq_26641781/article/details/80883192
