@@ -33,14 +33,14 @@ vi /etc/dnf/dnf.conf
 
 proxy=http://proxy.neusoft.com:8080
 proxy_username=xiejzh
-proxy_password=N@601912261500：
+proxy_password=jiu000...
 
 vi /etc/rhsm/rhsm.conf
 
 proxy_hostname = proxy.neusoft.com
 proxy_port = 8080
 proxy_user = xiejzh
-proxy_password = N@601912261500
+proxy_password = jiu000...
 
 centos8 安装 docker(主要)
 https://blog.csdn.net/yucaifu1989/article/details/103111317
@@ -53,7 +53,7 @@ touch http-proxy.conf
 vi http-proxy.conf
 
  [Service]
-Environment="HTTP_PROXY=http://xiejzh:N@601912261500@proxy.neusoft.com:8080/"
+Environment="HTTP_PROXY=http://xiejzh:jiu000...@proxy.neusoft.com:8080/"
 
 systemctl daemon-reload
 systemctl restart docker

@@ -1,0 +1,10 @@
+docker 部署nginx 使用keepalived 部署高可用(参照自动启动脚本)
+https://www.cnblogs.com/caozengling/p/10136232.html
+Docker nginx安装与配置挂载(docker nignx 搭建)
+https://blog.csdn.net/qq_26641781/article/details/80883192
+
+Nginx+Keepalived搭建高可用Web服务器详细教程，基于最新版Keepalived2.0.20实现的安装与配置（keepalived 搭建）
+https://blog.csdn.net/Hello_World_QWP/article/details/104447076 
+
+如何通过shell脚本启动部署在服务器中jar包
+https://blog.csdn.net/qq_43395576/article/details/104404679
