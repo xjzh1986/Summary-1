@@ -4,19 +4,10 @@ https://www.cnblogs.com/116970u/p/10869430.html
 Docker安装Mycat并实现mysql读写分离,分库分表
 https://blog.csdn.net/Amor_Leo/article/details/85218405 
 
-redis docker
-https://www.jianshu.com/p/ce1d78cd368a
-ES 集群配置
-https://blog.csdn.net/belonghuang157405/article/details/83301937
 android 学习
 https://www.runoob.com/w3cnote/android-tutorial-android-studio.html
-SpringBoot集成ElasticSearch
-https://www.jianshu.com/p/6887faf6b479
-es
-https://blog.csdn.net/zxc123e/article/details/79498113
-es api
-https://www.elastic.co/guide/en/elasticsearch/client/java-api/current/index.html
-
+redis docker
+https://www.jianshu.com/p/ce1d78cd368a
 
 docker 加速器
 docker daocloud
