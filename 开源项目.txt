@@ -1,2 +1,8 @@
  zuihou-admin-cloud
 https://gitee.com/zuihou111/zuihou-admin-cloud
+
+若依 
+https://gitee.com/y_project
+
+人人开源
+https://gitee.com/renrenio
